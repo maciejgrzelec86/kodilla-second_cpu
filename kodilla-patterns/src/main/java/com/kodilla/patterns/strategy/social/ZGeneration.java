@@ -1,0 +1,10 @@
+package com.kodilla.patterns.strategy.social;
+
+public class ZGeneration extends User {
+    String username;
+
+    public ZGeneration(String username) {
+        super(username);
+        this.socialPublisher = new SnapchatPublisher();
+    }
+}

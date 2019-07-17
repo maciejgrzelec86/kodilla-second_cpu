@@ -43,7 +43,6 @@ public class TaskDaoTestSuite {
         int duration = task.getDuration();
 
         //When
-        //List<Task> readTasks = taskDao.findByDuration(duration);
         List<Task> readTasks = taskDao.findByDuration(duration);
         //Then
         Assert.assertEquals(1, readTasks.size());
