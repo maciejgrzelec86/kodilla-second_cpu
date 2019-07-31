@@ -14,6 +14,9 @@ public class Tasklist {
         this.description = description;
     }
 
+    public Tasklist() {
+    }
+
     @Id
     @GeneratedValue
     @Column(name="ID", nullable = false, unique = true)

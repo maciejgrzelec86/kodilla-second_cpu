@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.builder.bigmac.BigMacTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-18T12:49:32" hostname="DESKTOP-ULPFFCO" time="0.004">
+<testsuite name="com.kodilla.patterns.builder.bigmac.BigMacTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-26T13:53:21" hostname="DESKTOP-ULPFFCO" time="0.003">
   <properties/>
-  <testcase name="testBigMacBuilder" classname="com.kodilla.patterns.builder.bigmac.BigMacTestSuite" time="0.004"/>
-  <system-out><![CDATA[com.kodilla.patterns.builder.bigmac.BigMac@75b0a0d
+  <testcase name="testBigMacBuilder" classname="com.kodilla.patterns.builder.bigmac.BigMacTestSuite" time="0.003"/>
+  <system-out><![CDATA[com.kodilla.patterns.builder.bigmac.BigMac@f01531e
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
