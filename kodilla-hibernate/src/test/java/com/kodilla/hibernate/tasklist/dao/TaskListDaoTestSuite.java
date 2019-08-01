@@ -28,7 +28,7 @@ public class TaskListDaoTestSuite {
         //Then
         //Co oznacza Optional<Task>???
         String descriptionTest = taskListDao.findByListname(listName).getDescription();
-        Assert.assertEquals("DESCRIPTION1", descriptionTest);
+        Assert.assertEquals(DESCRIPTION, descriptionTest);
         //Clean up
         taskListDao.deleteAll();
     }
