@@ -37,6 +37,7 @@ public class Invoice {
             cascade = CascadeType.ALL,
             fetch = FetchType.EAGER
     )
+
     public List<Item> getItems() {
         return items;
     }
