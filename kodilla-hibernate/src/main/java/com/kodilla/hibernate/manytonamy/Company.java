@@ -1,6 +1,6 @@
 package com.kodilla.hibernate.manytonamy;
 
-import com.sun.istack.internal.NotNull;
+
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -31,13 +31,13 @@ public class Company {
 
     @Id
     @GeneratedValue
-    @NotNull
+    //@NotNull
     @Column(name = "COMPANY_ID", unique = true)
     public int getId() {
         return id;
     }
 
-    @NotNull
+    //@NotNull
     @Column(name = "COMPANY_NAME")
     public String getName() {
         return name;

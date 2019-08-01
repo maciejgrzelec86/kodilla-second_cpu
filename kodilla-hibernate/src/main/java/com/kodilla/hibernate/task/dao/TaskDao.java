@@ -9,7 +9,5 @@ import java.util.List;
 @Transactional
 @Repository
 public interface TaskDao extends CrudRepository<Task, Integer> {
-    //List<Task> findByDuration(int duration);
-    //List<Task> findByDuration(int duration);
     List<Task> findByDuration(int duration);
 }

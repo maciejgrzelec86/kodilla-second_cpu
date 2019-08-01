@@ -1,7 +1,5 @@
 package com.kodilla.hibernate.manytonamy;
 
-import com.sun.istack.internal.NotNull;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,30 +22,30 @@ public class Employee {
 
     @Id
     @GeneratedValue
-    @NotNull
+    //@NotNull
     @Column(name = "EMPLOYEE_ID", unique = true)
     public int getId() {
         return id;
     }
 
-    @NotNull
+    //@NotNull
     @Column(name = "FIRSTNAME")
     public String getFirstname() {
         return firstname;
     }
 
-    @NotNull
+    //@NotNull
     @Column(name = "LASTNAME")
     public String getLastname() {
         return lastname;
     }
 
     @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable{
+    /*@JoinTable{
         name = "JOIN_COMPANY_EMPLOYEE",
         joinColumns = {@JoinColumn(name = "EMPLOYEE_ID", referencedColumnName = "EMPLOYEE_ID")},
         inverseJoinColumns = {@JoinColumn(name = "COMPANY_ID", referencedColumnName = "COMPANY_ID")}
-    }
+    }*/
     public List<Company> getCompanies() {
         return companies;
     }
