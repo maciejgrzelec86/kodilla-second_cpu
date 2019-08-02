@@ -1,8 +1,16 @@
 package com.kodilla.hibernate.manytonamy;
 
+import lombok.NonNull;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+
+
+@NamedQuery(
+        name = "Employee.retrieveEmployeeByLastname",
+        query = "FROM Employee WHERE lastname = :LASTNAME"
+)
 
 @Entity
 @Table(name = "EMPLOYEES")
@@ -22,30 +30,30 @@ public class Employee {
 
     @Id
     @GeneratedValue
-    //@NotNull
+    @NonNull
     @Column(name = "EMPLOYEE_ID", unique = true)
     public int getId() {
         return id;
     }
 
-    //@NotNull
+    @NonNull
     @Column(name = "FIRSTNAME")
     public String getFirstname() {
         return firstname;
     }
 
-    //@NotNull
+    @NonNull
     @Column(name = "LASTNAME")
     public String getLastname() {
         return lastname;
     }
 
     @ManyToMany(cascade = CascadeType.ALL)
-    /*@JoinTable{
+    @JoinTable{
         name = "JOIN_COMPANY_EMPLOYEE",
         joinColumns = {@JoinColumn(name = "EMPLOYEE_ID", referencedColumnName = "EMPLOYEE_ID")},
         inverseJoinColumns = {@JoinColumn(name = "COMPANY_ID", referencedColumnName = "COMPANY_ID")}
-    }*/
+    }
     public List<Company> getCompanies() {
         return companies;
     }

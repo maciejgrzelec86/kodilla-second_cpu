@@ -33,7 +33,7 @@ public class Item {
         return id;
     }
 
-    @Column(name = "PRODUCT")
+    //@Column(name = "PRODUCT")
     @ManyToOne
     @JoinColumn(name = "PRODUCT_ID")
     public Product getProduct() {

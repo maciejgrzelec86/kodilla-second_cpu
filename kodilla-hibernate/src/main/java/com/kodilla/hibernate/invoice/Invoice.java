@@ -30,10 +30,9 @@ public class Invoice {
         return number;
     }
 
-    @Column(name="ITEM_LISTS2")
     @OneToMany(
             targetEntity = Item.class,
-            mappedBy = "INVOICE",
+            mappedBy = "invoice",
             cascade = CascadeType.ALL,
             fetch = FetchType.EAGER
     )
