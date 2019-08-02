@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3494e1ea-3c0d-44ed-9f92-9ff9ec04fe1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/CompanyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/Tasklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/Tasklist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -116,18 +94,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="119">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="1309">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/CompanyDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="136">
               <caret line="15" column="49" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,14 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -181,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="255">
               <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -271,16 +241,16 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/CompanyDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="231" />
-    <option name="y" value="66" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="230" />
+    <option name="y" value="65" />
     <option name="width" value="1750" />
     <option name="height" value="990" />
   </component>
@@ -383,54 +353,7 @@
               <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-hibernate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="manytomanydao" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,7 +509,8 @@
       <workItem from="1564589790436" duration="3262000" />
       <workItem from="1564596142558" duration="3833000" />
       <workItem from="1564653308331" duration="16762000" />
-      <workItem from="1564733265690" duration="2533000" />
+      <workItem from="1564733265690" duration="3892000" />
+      <workItem from="1564757243345" duration="359000" />
     </task>
     <servers />
   </component>
@@ -623,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90900000" />
+    <option name="totallyTimeSpent" value="92618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +561,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -652,7 +576,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.42776203" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.49291784" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9575071" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38526914" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -1112,30 +1036,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/CompanyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="136">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1149,20 +1063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomanydao/CompanyDaoTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1171,16 +1075,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="119">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytonamy/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
