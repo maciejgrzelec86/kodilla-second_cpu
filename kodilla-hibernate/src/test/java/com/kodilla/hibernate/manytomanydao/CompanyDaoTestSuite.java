@@ -12,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.List;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CompanyDaoTestSuite {
@@ -71,8 +73,8 @@ public class CompanyDaoTestSuite {
         //Given
         Employee employee1 = new Employee("firstname1", "lastname1");
         Employee employee2 = new Employee("firstname2", "lastname2");
-        Company company1 = new Company("company1");
-        Company company2 = new Company("company1");
+        Company company1 = new Company("ABCcompany1");
+        Company company2 = new Company("XYZcompany1");
 
         employee1.getCompanies().add(company1);
         employee2.getCompanies().add(company2);
@@ -86,6 +88,15 @@ public class CompanyDaoTestSuite {
         int companyID2 = company2.getId();
 
         //When
+        List<Company> companyList = companyDao.retrieveCompanyStartsThreeSigns("ABC");
+        List<Employee> employeeList = employeeDao.retrieveEmployeeByLastname("lastname2");
 
+        //Then
+        Assert.assertEquals(1, companyList.size());
+        Assert.assertEquals(1, employeeList.size());
+
+        //Clean up
+        companyDao.deleteById(companyID1);
+        companyDao.deleteById(companyID2);
     }
 }
