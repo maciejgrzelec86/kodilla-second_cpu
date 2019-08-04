@@ -20,7 +20,7 @@ import java.util.Date;
 })
 @NamedNativeQuery(
         name = "Task.retrieveTasksWithEnoughTime",
-        query = "SELECT * FROM TASKS" +
+        query = "SELECT * FROM TASKS " +
                 "WHERE DATEDIFF(DATE_ADD(CREATED, INTERVAL DURATION DAY), NOW() ) > 5",
         resultClass = Task.class
 )
@@ -33,7 +33,7 @@ public class Task {
     private Date created;
     private int duration;
     private TaskFinancialDetails taskFinancialDetails;
-    private Tasklist tasklist;
+    private Tasklist taskList;
 
     public Task(String description, int duration) {
         this.description = description;
@@ -67,7 +67,7 @@ public class Task {
         return duration;
     }
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToOne(/*cascade = CascadeType.ALL,*/ fetch = FetchType.EAGER)
     @JoinColumn(name = "TASKS_FINANCIALS_ID")
     public TaskFinancialDetails getTaskFinancialDetails() {
         return taskFinancialDetails;
@@ -94,11 +94,11 @@ public class Task {
     }
     @ManyToOne
     @JoinColumn(name = "TASKLIST_ID")
-    public Tasklist getTasklist() {
-        return tasklist;
+    public Tasklist getTaskList() {
+        return taskList;
     }
 
-    public void setTasklist(Tasklist tasklist) {
-        this.tasklist = tasklist;
+    public void setTaskList(Tasklist taskList) {
+        this.taskList = taskList;
     }
 }

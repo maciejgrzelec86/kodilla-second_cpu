@@ -8,8 +8,8 @@ import java.util.List;
 
 @NamedNativeQuery(
         name = "Company.retrieveCompanyStartsThreeSigns",
-        query = "SELECT * FROM COMPANIES" +
-                "WHERE LEFT(COMPANY_NAME, 3) =: FIRST_LETTERS ",
+        query = "SELECT * FROM COMPANIES " +
+                "WHERE LEFT(COMPANY_NAME, 3) = :FIRST_LETTERS ",
         resultClass = Company.class
 )
 

@@ -3,6 +3,7 @@ package com.kodilla.hibernate.tasklist.dao;
 import com.kodilla.hibernate.task.Task;
 import com.kodilla.hibernate.task.TaskFinancialDetails;
 import com.kodilla.hibernate.task.dao.TaskDao;
+import com.kodilla.hibernate.task.dao.TaskFinancialDetailsDao;
 import com.kodilla.hibernate.tasklist.Tasklist;
 import org.junit.Assert;
 import org.junit.Test;
@@ -16,12 +17,15 @@ import java.math.BigDecimal;
 import java.util.List;
 
 
-@Transactional
+//@Transactional
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TaskListDaoTestSuite {
     @Autowired
     private TaskListDao taskListDao;
+    @Autowired
+    private TaskFinancialDetailsDao taskFinancialDetailsDao;
+
     @Autowired
     private TaskDao taskDao;
     private static final String LISTNAME = "LISTNAME1";
@@ -36,10 +40,14 @@ public class TaskListDaoTestSuite {
         String listName = tasklist.getListname();
         //Then
         //Co oznacza Optional<Task>???
-        String descriptionTest = taskListDao.findByListname(listName).getDescription();
-        Assert.assertEquals(DESCRIPTION, descriptionTest);
-        //Clean up
-        taskListDao.deleteAll();
+        String descriptionTest = taskListDao.findByListname(listName).get(0).getDescription();
+
+        try {
+            Assert.assertEquals(DESCRIPTION, descriptionTest);
+        } finally {
+            //Clean up
+            taskListDao.deleteAll();
+        }
     }
 
     @Test
@@ -66,12 +74,21 @@ public class TaskListDaoTestSuite {
         taskList.getTasks().add(task3);
         taskList.getTasks().add(task4);
 
-        task1.setTasklist(taskList);
-        task2.setTasklist(taskList);
-        task3.setTasklist(taskList);
-        task4.setTasklist(taskList);
+        task1.setTaskList(taskList);
+        task2.setTaskList(taskList);
+        task3.setTaskList(taskList);
+        task4.setTaskList(taskList);
 
         taskListDao.save(taskList);
+        taskFinancialDetailsDao.save(tfd1);
+        taskFinancialDetailsDao.save(tfd2);
+        taskFinancialDetailsDao.save(tfd3);
+        taskFinancialDetailsDao.save(tfd4);
+        taskDao.save(task1);
+        taskDao.save(task2);
+        taskDao.save(task3);
+        taskDao.save(task4);
+
         int id = taskList.getId();
 
         //When
@@ -87,7 +104,9 @@ public class TaskListDaoTestSuite {
             Assert.assertEquals(2, durationLongerThanTasks.size());
         } finally {
             //CleanUp
-            taskListDao.deleteById(id);
+            taskDao.deleteAll();
+            taskFinancialDetailsDao.deleteAll();
+            taskListDao.deleteAll();
         }
     }
 }

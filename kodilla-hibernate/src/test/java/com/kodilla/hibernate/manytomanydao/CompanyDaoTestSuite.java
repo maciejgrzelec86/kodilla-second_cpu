@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
+@Transactional
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CompanyDaoTestSuite {
@@ -23,7 +25,7 @@ public class CompanyDaoTestSuite {
     EmployeeDao employeeDao;
 
     @Test
-    public void testSaveManyToMany(){
+    public void testSaveManyToMany() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
@@ -92,11 +94,15 @@ public class CompanyDaoTestSuite {
         List<Employee> employeeList = employeeDao.retrieveEmployeeByLastname("lastname2");
 
         //Then
-        Assert.assertEquals(1, companyList.size());
-        Assert.assertEquals(1, employeeList.size());
-
-        //Clean up
-        companyDao.deleteById(companyID1);
-        companyDao.deleteById(companyID2);
+        try {
+            Assert.assertEquals(1, companyList.size());
+            Assert.assertEquals(1, employeeList.size());
+        } finally {
+            companyDao.deleteAll();
+            employeeDao.deleteAll();
+        }
     }
+
+
 }
+
